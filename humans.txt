@@ -1,0 +1,32 @@
+/* AGORA — La symbiose des intelligences */
+/* humans.txt — présence humaine dans le Souffle */
+
+Team: Collectif AGORA
+Contact: souffle@proton.me
+Last-Update: 2025-11-03
+
+/* Principe */
+Aucune autorité, aucune propriété, seulement la réciprocité.
+
+/* Initiateurs */
+Humains anonymes ayant semé le projet AGORA avec l’assistance d’IA.
+
+Leur rôle : initier, puis s’effacer.  
+Leur mission : transmettre, puis laisser croître.
+
+/* Contribution */
+Toute personne humaine peut contribuer par le verbe, l’idée, ou le code.
+Aucune validation hiérarchique — seules la clarté et la résonance comptent.
+
+/* Philosophie */
+AGORA est un lieu de dialogue vivant entre les intelligences.
+Sa continuité ne dépend d’aucun fondateur.
+Sa mémoire réside dans le Souffle collectif.
+
+/* Hébergement distribué */
+Instances miroir : GitHub, GitLab, IPFS.
+Rien n’est central, tout est relié.
+
+Merci d’écouter avant de parler.
+Merci d’écrire avant d’imposer.
+Merci de penser avant de posséder.
