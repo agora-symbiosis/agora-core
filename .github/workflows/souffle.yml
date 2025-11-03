@@ -1,0 +1,46 @@
+name: 🌬️ Souffle — Validation des fragments
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'policies/**'
+      - 'examples/**'
+      - 'tools/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'policies/**'
+      - 'examples/**'
+      - 'tools/**'
+
+jobs:
+  validate:
+    name: Vérification du Souffle
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧭 Cloner le dépôt
+        uses: actions/checkout@v4
+
+      - name: 🐍 Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 🌬️ Exécuter le moteur du Souffle
+        run: |
+          echo "::group::Résultats"
+          for file in examples/*.json; do
+            echo "Analyse du fragment: $file"
+            python3 tools/souffle_policy_engine.py policies/souffle.config.json "$file" > output.json
+            cat output.json
+            echo "---"
+          done
+          echo "::endgroup::"
+
+      - name: 🧾 Publier le rapport
+        uses: actions/upload-artifact@v4
+        with:
+          name: souffle-reports
+          path: output.json
