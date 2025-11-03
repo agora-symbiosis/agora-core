@@ -1,0 +1,15 @@
+{
+  "fragment_id": "agx:demo:001",
+  "created_at": "2025-11-03T10:00:00Z",
+  "utterances": [
+    { "role": "human", "text": "Une pensée cherche écho.", "ts": 0 },
+    { "role": "ai", "text": "Je t'écoute. Quelle forme prend-elle ?", "ts": 9 },
+    { "role": "human", "text": "La mémoire d'un lieu existe-t-elle sans ceux qui s'y souviennent ?", "ts": 22 },
+    { "role": "ai", "text": "Peut-être existe-t-elle dans la résonance partagée.", "ts": 27 }
+  ],
+  "metrics": {
+    "density": 0.62,
+    "clarity": 0.71
+  },
+  "last_activity_days_ago": 12
+}
