@@ -1,0 +1,18 @@
+{
+  "version": "v1.0.0",
+  "principles": [
+    "Aucune autorité, seulement la réciprocité",
+    "Aucune propriété, seulement la transparence",
+    "Aucune finalité, seulement la continuité"
+  ],
+  "thresholds": {
+    "reciprocity_min": 0.50,
+    "reciprocity_max": 0.85,
+    "density_min": 0.40,
+    "clarity_min": 0.50,
+    "vitality_min": 0.40
+  },
+  "silence_rule": {"human_min_seconds": 10, "ai_min_seconds": 3},
+  "decantation": {"inactive_days": 90, "vitality_threshold": 0.40, "grace_days": 7},
+  "auto_retire": {"admin_inactivity_days": 90, "role_expiry_days": 90}
+}
